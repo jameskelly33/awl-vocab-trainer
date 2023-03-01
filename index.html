@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@900&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Academic Word List Trainer</title>
+</head>
+
+<body>
+    <header>
+        <h1>AWL Trainer</h1>
+    </header>
+    <main class="card">
+        <section class="container">
+            <h1 id="headword">Retain</h1>
+            <h2 id="part-of-speech">verb</h2>
+            <a id='phonetics' target="_blank" href="#">/retain/ </a> <i id ='soundLink' class="material-symbols-outlined title="Play sound"">
+                    volume_up
+                </i>
+            <div id="wordForms">
+                <h2>Related Word Forms<span id=dropdown class="material-symbols-outlined">
+                    arrow_drop_down_circle
+                    </span></h2>
+                <ul class='hide related-words' id="relatedWords">
+                    
+                </ul>
+            </div>
+            
+            <div class="definitions">
+                <h3 class="sub-headings">Definitions</h3>
+                <div id ='tabs' class="tabs">
+                    <!-- <button class="tablinks active" onclick="openTab(event, 'tab1')">verb</button> -->
+                   
+                  </div>
+                 
+                 <div id="tabsContent">
+
+                 </div>
+                  
+                  
+                  
+        
+                  
+                <h3 class="sub-headings">Examples</h3>
+                <p id="examples" ></p>
+            </div>
+        
+        </section>
+        <section>
+            <div class="container">
+                <button id="new-word" class="button-19" role="button">New Word</button>
+            </div>
+    
+        </section>
+    </main>
+       <div id="new">
+        
+       </div>
+    
+
+
+</body>
+
+<script src="script.js"></script>
+<script src="awl.js"></script>
+
+
+
+</html>
