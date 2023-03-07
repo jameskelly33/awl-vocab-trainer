@@ -18,41 +18,38 @@
 
 <body>
     <header>
-        <h1>AWL Trainer</h1>
+        <h2>AWL Trainer</h2>
     </header>
     <main class="card">
         <section class="container">
-            <h1 id="headword">Retain</h1>
+            <span id='icon' class=" color-1">1</span><h1 id="headword">Retain</h1>
             <h2 id="part-of-speech">verb</h2>
             <a id='phonetics' target="_blank" href="#">/retain/ </a> <i id ='soundLink' class="material-symbols-outlined title="Play sound"">
                     volume_up
                 </i>
+                
             <div id="wordForms">
-                <h2>Related Word Forms<span id=dropdown class="material-symbols-outlined">
+                <h3>Related Word Forms<span id=dropdown class="material-symbols-outlined">
                     arrow_drop_down_circle
-                    </span></h2>
+                    </span></h3>
                 <ul class='hide related-words' id="relatedWords">
                     
                 </ul>
             </div>
             
-            <div class="definitions">
+            <div>
                 <h3 class="sub-headings">Definitions</h3>
                 <div id ='tabs' class="tabs">
-                    <!-- <button class="tablinks active" onclick="openTab(event, 'tab1')">verb</button> -->
-                   
+
                   </div>
                  
                  <div id="tabsContent">
-
+                 
                  </div>
-                  
-                  
-                  
-        
-                  
+                 <button id="more-definitions" class="show-more">More Definitions</button>
                 <h3 class="sub-headings">Examples</h3>
-                <p id="examples" ></p>
+                <ul id="examples"></ul>
+                <button id="more-examples" class="show-more">More Examples</button>
             </div>
         
         </section>
@@ -71,7 +68,7 @@
 
 </body>
 
-<script src="script.js"></script>
+
 <script src="awl.js"></script>
 
 
