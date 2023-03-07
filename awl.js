@@ -1657,7 +1657,7 @@ const awl = [
           }
       ],
       "Examples": [
-          "a brief bikini",
+          
           "covered the matter in a brief statement",
           "The reporters were briefed about the President's plan to invade",
           "a brief stay in the country"
