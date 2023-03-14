@@ -18481,7 +18481,21 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 newWord.addEventListener('click', getWord)
 
-
-
-
  
+const hamburger = document.getElementById('hamburger')
+const sideNav= document.getElementById('sideNav')
+const mainContent = document.querySelector(".main-content");
+hamburger.addEventListener('click',() => {
+
+  const isOpened=hamburger.getAttribute('aria-expanded')
+  if (isOpened ==='false'){
+    hamburger.setAttribute('aria-expanded','true')
+    sideNav.classList.add('nav-active')
+    mainContent.classList.add('nav-active')
+    
+  } else{
+    hamburger.setAttribute('aria-expanded','false')
+    sideNav.classList.remove('nav-active')
+    mainContent.classList.remove('nav-active')
+  }
+})

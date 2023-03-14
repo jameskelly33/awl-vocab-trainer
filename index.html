@@ -12,15 +12,51 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@900&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">    
     <link rel="stylesheet" href="style.css">
     <title>Academic Word List Trainer</title>
 </head>
 
 <body>
-    <header>
-        <h2>AWL Trainer</h2>
-    </header>
-    <main class="card">
+   <header>
+    <button id='hamburger' class="button-one" aria-controls="primary-navigation" aria-expanded="false">
+        <svg fill="var(--button-color)"class="hamburger" viewBox="0 0 100 100" width="40">
+            <rect class="line top" width="80" height="10" x="10" y="25" rx="5" ></rect>
+            <rect class="line middle" width="80" height="10" x="10" y="45" rx="5" ></rect>
+            <rect class="line bottom" width="80" height="10" x="10" y="65" rx="5" ></rect>
+        </svg>
+
+    </button>
+    <h3 class="header-text"><span>THE ACADEMIC </span> WORD LIST</h3>
+   </header>
+
+   <div class="nav-container">
+    <div id ="sideNav" class="sidenav">
+        <ul class="menu-links" >
+            <li class="nav-links">
+                <span class="material-symbols-outlined nav-icon">home</span>
+                <a href="#">Home</a>
+            </li>
+            <li class="nav-links">
+                <span class="material-symbols-outlined nav-icon">search</span>
+                <a href="#">Services</a>
+            </li>
+            <li class="nav-links">
+                <span class="material-symbols-outlined nav-icon">menu_book</span>
+                <a href="#">Contact</a>
+            </li>
+            <li class="nav-links">
+                <span class="material-symbols-outlined nav-icon">info</span>
+                <a href="#">About</a>
+            </li>
+        </ul>
+    </div>  
+
+    <main id ='main' class="card main-content">
+        <div class="overlay">
+    
+</div>
         <section class="container">
             <span id='icon' class=" color-1">1</span><h1 id="headword">Retain</h1>
             <h2 id="part-of-speech">verb</h2>
@@ -60,9 +96,7 @@
     
         </section>
     </main>
-       <div id="new">
-        
-       </div>
+    
     
 
 

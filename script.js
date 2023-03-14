@@ -47,3 +47,14 @@ function openTab(evt, tabName) {
     evt.currentTarget.classList.add("active");
     
   }
+const hamburger = document.getElementById('hamburger')
+
+hamburger.addEventListener('click',() => {
+  console.log('a')
+  const isOpened=hamburger.getAttribute('aria-expanded')
+  if (isOpened ==='false'){
+    hamburger.setAttribute('aria-expanded','true')
+  } else{
+    hamburger.setAttribute('aria-expanded','false')
+  }
+})
